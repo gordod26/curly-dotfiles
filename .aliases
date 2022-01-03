@@ -1,0 +1,34 @@
+#cd aliases
+alias ebt="cd; cd src/ebkit_react/src"
+alias fbb="cd; cd src/fb/strapi/my-project"
+alias fbf="cd; cd src/fb/gatsby-typescript-tailwind"
+alias btf="cd; cd src/bible_talk_live/"
+alias btb="cd; cd src/bible_talk_live/server"
+alias awe="cd; cd src/AwesomeProject
+
+#program aliases
+alias v="nvim"
+alias vim="nvim"
+alias lg='lazygit'
+alias ld='lazydocker'
+alias rr="ranger"
+#sync aliases
+alias mosurfsync="cd;rsync -rtvzp ~/src/ mosurf:~/src;rsync -rtvzp ~/.bashrc mosurf:;rsync -rtvzp ~/.nvimrc mosurf:"
+alias moboxsync="cd;rsync -rtvzp ~/src/ mobox:~/src;rsync -rtvzp ~/.bashrc mobox:;rsync -rtvzp ~/.nvimrc mobox:"
+alias pushsite="rsync -rtvzP /path/to/file root@davidgordon.xyz:/var/www/davidgordon"
+# files
+alias todo="vim ~/vimwiki/todo.wiki"
+alias bashrc="vim ~/.bashrc"
+alias nvimrc="vim ~/.nvimrc"
+# tools
+alias bashreload='xrdb -merge ~/.Xresources'
+alias xsearch='urxvt --help 2>&1 | grep'
+alias lx='lxrandr'
+alias trackpadoff='xinput --disable '
+alias trackpadon='xinput --enable '
+alias inputlist='xinput list'
+alias fix4000="lsof -i tcp:4000"
+alias kill4000="kill -9"
+
+# ebt
+alias ebtstart='cd; ebt;expo start
